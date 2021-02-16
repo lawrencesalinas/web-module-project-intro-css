@@ -1,0 +1,221 @@
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+} /* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+
+  padding: 0;
+
+  margin: 0;
+
+  max-width: 100%;
+
+  /* border: 1px solid gray; */
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Roboto Mono", monospace;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.Plan {
+  background-color: #ff764e;
+}
+
+.Learn {
+  background-color: #5ed3eb;
+}
+
+.Get {
+  background-color: #ffcd69;
+}
+
+span {
+  font-weight: bold;
+}
+h1 {
+  font-family: "Chelsea Market", cursive;
+}
+
+.section1 {
+  background-color: #ddb9a3;
+  text-align: center;
+  color: white;
+  padding: 1%;
+}
+
+.header-image {
+  border-radius: 100%;
+  display: inline;
+  width: 15%;
+  margin: 3% 0 0 10%;
+}
+
+.header-content {
+  width: 60%;
+  display: inline-block;
+  margin: 3% 0 4% 4%;
+  text-align: center;
+}
+
+header nav {
+  padding: 1%;
+}
+nav a {
+  color: white;
+  width: 15%;
+  margin: 0% 8% 0%;
+  text-decoration: none;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 1%;
+  text-align: center;
+}
+
+.section-image {
+  width: 10%;
+  display: block;
+  margin: 2% auto 2%;
+}
+
+.section2 p {
+  margin: 0 auto 5%;
+  width: 36%;
+  text-align: center;
+}
+
+footer img {
+  width: 100%;
+  height: 20vh;
+}
+footer nav {
+  background-color: #f9e7dc;
+  padding: 1%;
+}
